@@ -1,4 +1,4 @@
-# Third-party Libraries
+# Third-party libraries
 
 This repository contains some 3rdparty software components (prebuilt binaries and libraries) that needs to build my developments.
 
