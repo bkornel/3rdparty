@@ -303,7 +303,7 @@ public:
 
     /** Default cosntructor */
     UniqueResultSet() :
-        is_full_(false), worst_distance_(std::numeric_limits<DistanceType>::max())
+        is_full_(false), worst_distance_((std::numeric_limits<DistanceType>::max)())
     {
     }
 
@@ -425,7 +425,7 @@ public:
     void clear() CV_OVERRIDE
     {
         dist_indices_.clear();
-        worst_distance_ = std::numeric_limits<DistanceType>::max();
+        worst_distance_ = (std::numeric_limits<DistanceType>::max)();
         is_full_ = false;
     }
 
