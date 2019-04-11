@@ -1,0 +1,1 @@
+dlib is built as a static library
